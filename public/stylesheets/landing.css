@@ -1,0 +1,23 @@
+body {
+    background: black;
+}
+
+#landing-header {
+  /*z-index is forvard and backward (like x and y is up and down, left and right) giving 3d effect*/
+  /*so 1 is coming forward towards us and -1 is going backwards*/
+  z-index: 1;
+  /*in order to use z-index you have to change position to smth other than static, in this case - relative*/
+  position: relative;
+  text-align: center;
+  padding-top: 20vh;
+  /*vh - view hight*/
+}
+
+#landing-header h1 {
+  color: #fff;
+}
+
+p {
+  font-size: 20px;
+  padding: 10px;
+}
